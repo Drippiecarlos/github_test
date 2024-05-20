@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header with Dropdown</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-main">
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="logo">
+                <h1>SNEAKERS <span>GALORE</span></h1>
+            </div>
+            <div class="header-icons">
+                <a href="#">Sign In</a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Shop</a>
+                    <div class="dropdown-content">
+                        <div class="column">
+                            <a href="#">New Arrivals</a>
+                            <a href="#">Recommended</a>
+                            <a href="#">Popular</a>
+                            <a href="#">Shop by Brand</a>
+                            <a href="#">Recommended</a>
+                        </div>
+                        <hr style="width:40%" color="#ddd">
+                        <div>
+                        <a href="#">Recommended</a>
+                        <a href="#">New Arrivals</a>
+                        <a href="#">Recommended</a>
+                        <a href="#">Popular</a>
+                        <a href="#">Shop by Brand</a>
+                        </div>
+                       <hr style="width:40%" color="#ddd">
+                        <div>
+                        <a href="#">Recommended</a>
+                        <a href="#">New Arrivals</a>
+                        <a href="#">Recommended</a>
+                        <a href="#">Popular</a>
+                        <a href="#">Shop by Brand</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">News & Events</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+  <!----main section --->
+
+  <div class="best-sellers">
+    <img src="/images /1.jpg" alt="Best Sellers Image" class="best-sellers-image">
+    <div class="caption">
+      <div class="title">BEST <span>SELL</span>ERS</div>
+       <div class="sub-title">SHOP NOW</div>
+     </div>
+  </div>
+  <hr width="50%" color="crimson" />
+<!----end of main section -->
+
+   <!----card slider section-->
+     <div class="new-arrivals">
+        <h2>New <span>Arrivals</span></h2>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <div class="product-slider">
+                <div class="product">
+                    <img src="/images /slider 1/pexels-media-11209837.jpeg" alt="Wooden Train Set">
+                    <h3>Wooden Train Set</h3>
+                    <p>Town & Country</p>
+                    <p class="price">$54.95</p>
+                </div>
+                <div class="product">
+                    <img src="/images /slider 1/pexels-media-2385477.jpeg" alt="Rocking Horse">
+                    <h3>Rocking Horse</h3>
+                    <p>Happy Trails</p>
+                    <p class="price">$89.95</p>
+                </div>
+                <div class="product">
+                    <img src="/images /pexels-media-4215840.jpeg" alt="Wooden Fire Engine">
+                    <h3>Wooden Fire Engine</h3>
+                    <p>Kid's Toy</p>
+                    <p class="price">$59.99</p>
+                </div>
+                <div class="product">
+                    <img src="/images /pexels-media-9252069.jpeg" alt="Wooden Fire Engine">
+                    <h3>Wooden Fire Engine</h3>
+                    <p>Kid's Toy</p>
+                    <p class="price">$59.99</p>
+                </div>
+                <div class="product">
+                    <img src="/images /pexels-media-9252069.jpeg" alt="Wooden Fire Engine">
+                    <h3>Wooden Fire Engine</h3>
+                    <p>Kid's Toy</p>
+                    <p class="price">$59.99</p>
+                </div>
+                <div class="product">
+                    <img src="/images /pexels-media-9252069.jpeg" alt="Wooden Fire Engine">
+                    <h3>Wooden Fire Engine</h3>
+                    <p>Kid's Toy</p>
+                    <p class="price">$59.99</p>
+                </div>
+                <div class="product">
+                    <img src="/images /pexels-media-4215840.jpeg" alt="Scrabble">
+                    <h3>Scrabble</h3>
+                    <p>Hasbro</p>
+                    <p class="price">$19.45</p>
+                </div>
+            </div>
+            <button class="next">&#10095;</button>
+        </div>
+    </div>
+    <!-----end of card slider section 1-->
+   
+    <hr/>
+       <!----main section ii-->
+    <div class="best-sellers">
+      <img src="/images /sellers.jpg" alt="Best Sellers Image" class="best-sellers-image">
+    <div class="caption">
+      <div class="title">BEST <span>SELL</span>ERS</div>
+       <div class="sub-title">SHOP NOW</div>
+     </div>
+  </div>
+  <hr/>
+  <!---end of main section -->
+   <!----card slider section -->
+      <div class="recommendations-container">
+        <h2>Recommendations <span>for you</span></h2>
+        <div class="slider-container">
+            <button class="prev" onclick="slide(-1)">&#10094;</button>
+            <div class="slider">
+                <div class="card">
+                    <img src="/images /pexels-media-9252069.jpeg" alt="Magic Wand" class="card-image">
+                    <div class="card-content">
+                        <h3>Magic Wand</h3>
+                        <p>Magic Co</p>
+                        <p>$15.99</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images /pexels-media-4215840.jpeg" alt="Magic Linking Rings" class="card-image">
+                    <div class="card-content">
+                        <h3>Magic Linking Rings</h3>
+                        <p>Fun Inc</p>
+                        <p>$20.00</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images /pexels-media-9252069.jpeg" alt="Disappearing Coin Trick" class="card-image">
+                    <div class="card-content">
+                        <h3>Disappearing Coin Trick</h3>
+                        <p>Magician's Guild</p>
+                        <p>$10.50</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images /pexels-media-4215840.jpeg" alt="Disappearing Coin Trick" class="card-image">
+                    <div class="card-content">
+                        <h3>Disappearing Coin Trick</h3>
+                        <p>Magician's Guild</p>
+                        <p>$10.50</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images /pexels-media-9252069.jpeg" alt="Disappearing Coin Trick" class="card-image">
+                    <div class="card-content">
+                        <h3>Disappearing Coin Trick</h3>
+                        <p>Magician's Guild</p>
+                        <p>$10.50</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images /pexels-media-9252069.jpeg" alt="Disappearing Coin Trick" class="card-image">
+                    <div class="card-content">
+                        <h3>Disappearing Coin Trick</h3>
+                        <p>Magician's Guild</p>
+                        <p>$10.50</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images /pexels-media-9252069.jpeg" alt="Disappearing Coin Trick" class="card-image">
+                    <div class="card-content">
+                        <h3>Disappearing Coin Trick</h3>
+                        <p>Magician's Guild</p>
+                        <p>$10.50</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/images /pexels-media-9252069.jpeg" alt="Invisible Card Deck" class="card-image">
+                    <div class="card-content">
+                        <h3>Invisible Card Deck</h3>
+                        <p>Magic Co</p>
+                        <p>$25.00</p>
+                    </div>
+                </div>
+            </div>
+            <button class="next" onclick="slide(1)">&#10095;</button>
+        </div>
+    </div>
+    <hr/>
+   <!-----end of card slider section 1-->
+   <!---about section -->
+   <section id="about">
+     <div class="section">
+       <div class="container">
+        <div class="content-section">
+          <div class="title">
+            <h1>Abou<span>t</span> <span>us</span></h1>
+          </div>
+          <div class="content">
+            <h1>We like the sleek design and beautiful photos that complement it. You find it fascinating too? Here is proof that simple sites work efficiently! “All the great things are simple”, right?</h1>
+            <p>Hi'IM DR.KELLY LOVEL FROM AMERICA TEXAS CURRENTLY WORKING IN LODWAR TURKANA KENYA LOOKING FORWARD TO MEET A LONELY SOUL MATE IF YOU ARE INTRESTED CALL/SMS TRUE THI'S NO.</p>
+          <div class="button">
+            <a href=""><span>~</span>Read More<span>~</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="image-section">
+        <img src="/images /about1.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+<hr/>
+<!--end of about section-->
+<!--instagram section -->
+<div class="instagram-section">
+  <h2>FOLLOW <span>US ON</span> INSTAGRAM </h2>
+  <div class="instagram-gallery">
+    <img src="/images /camping-1.jpg"alt="Instagram-image1">
+    <img src="/images /light.jpg"alt="Instagram-image2">
+    <img src="/images /camping-2.jpg"alt="Instagram-image3">
+    <img src="/images /camping-6.jpg"alt="Instagram-image4">
+    <img src="/images /camping-4.jpg"alt="Instagram-image5">
+  </div>
+</div>
+<hr/>
+<!----end of Instagram section --->
+ <!--footer section -->
+  <div class="footer">
+    <div class="conta">
+      <div class="row">
+        <div class="footer-col">
+          <h4>CUSTO<span>MER</span> <span>SER</span>VICE</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">News &Events</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>VISIT <span>OUR</span> STORE</h4>
+          <ul>
+            <li><a href="#">45 KEARNY ST</a></li>
+            <li><a href="#">SAN FRANSISCO CA</a></li>
+            <li><a href="#">(415)297-0067</a></li>
+            <li><a href="#">MONDAY-FRIDAY 9:00-11:00</a></li>
+            <li><a href="#">SATURDAY 10:30-7:00</a></li>
+            <li><a href="#">SUNDAY 10:00-8:00</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>CONNECT <span>WITH</span> US</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!--end of footer section -->
+
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
